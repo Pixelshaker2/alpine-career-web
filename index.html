@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alpine Career</title>
+<meta name="description" content="Privates Assistenzwerkzeug für die Stellensuche und den Nachweis der persönlichen Arbeitsbemühungen.">
+<style>
+  :root {
+    --ground: #f3f5f8; --surface: #fff; --ink: #16202b; --muted: #5b6a7a;
+    --line: #cdd6e0; --accent: #b4232a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ground:#0e151d; --surface:#172029; --ink:#e4ebf2;
+            --muted:#93a3b3; --line:#2a3744; --accent:#e9686e; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--ground); color: var(--ink);
+    font: 17px/1.65 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 56px 24px 72px; }
+  h1 { font-size: 2.1rem; line-height: 1.15; margin: 0 0 8px; }
+  h2 { font-size: 1.25rem; margin: 40px 0 10px; }
+  p { margin: 0 0 14px; }
+  .lead { color: var(--muted); font-size: 1.08rem; }
+  ul { padding-left: 20px; margin: 0 0 14px; }
+  li { margin-bottom: 6px; }
+  .card {
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: 4px; padding: 20px 22px; margin: 28px 0;
+  }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line);
+    color: var(--muted); font-size: 0.92rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Alpine Career</h1>
+  <p class="lead">
+    Privates Assistenzwerkzeug für die Stellensuche in der Schweiz — für eine
+    einzelne Person, nicht öffentlich nutzbar.
+  </p>
+
+  <h2>Was das Werkzeug tut</h2>
+  <p>
+    Alpine Career unterstützt eine stellensuchende Person bei der Organisation
+    ihrer Bewerbungen. Es liest Job-Alert-E-Mails aus dem eigenen Postfach,
+    bewertet Stellen gegen das eigene Profil, bereitet Bewerbungsunterlagen vor
+    und legt sie strukturiert in der eigenen Google-Drive-Ablage ab.
+  </p>
+  <p>
+    Zusätzlich führt es den <strong>Nachweis der persönlichen
+    Arbeitsbemühungen</strong> (RAV-Formular 716.007) und hält ihn nach jeder
+    Bewerbung und jeder Antwort aktuell.
+  </p>
+
+  <div class="card">
+    <strong>Keine Bewerbung ohne ausdrückliche Freigabe.</strong>
+    <p style="margin:8px 0 0">
+      Das Werkzeug bereitet Unterlagen nur vor. Jede einzelne Bewerbung muss
+      die nutzende Person per Telegram-Nachricht freigeben, bevor eine E-Mail
+      versendet wird. Ohne diese Bestätigung verlässt nichts das System.
+    </p>
+  </div>
+
+  <h2>Umfang</h2>
+  <ul>
+    <li>Ein einziger Nutzer, keine Registrierung, kein öffentlicher Zugang.</li>
+    <li>Läuft lokal auf einem privaten Rechner, nicht als Online-Dienst.</li>
+    <li>Verwendet ausschliesslich das Google-Konto der nutzenden Person.</li>
+    <li>Keine Weitergabe von Daten an Dritte, keine Werbung, keine Analyse.</li>
+  </ul>
+
+  <h2>Datenschutz</h2>
+  <p>
+    Wie mit Google-Kontodaten umgegangen wird, steht in der
+    <a href="datenschutz.html">Datenschutzerklärung</a>.
+  </p>
+
+  <footer>
+    Privates Projekt · Kontakt: <a href="mailto:pixelshaker2@gmail.com">pixelshaker2@gmail.com</a><br>
+    <a href="datenschutz.html">Datenschutzerklärung</a>
+  </footer>
+
+</div>
+</body>
+</html>
